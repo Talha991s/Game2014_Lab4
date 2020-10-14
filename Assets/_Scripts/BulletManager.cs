@@ -24,9 +24,7 @@ public class BulletManager : MonoBehaviour
 
         for (int count = 0; count < MaxBullets; count++)
         {
-            var tempBullet = bulletFactory.createBullet(BulletTypes.REGULAR);
-            tempBullet.SetActive(false);
-            tempBullet.transform.parent = transform;
+            var tempBullet = bulletFactory.createBullet();
             m_bulletPool.Enqueue(tempBullet);
         }
     }

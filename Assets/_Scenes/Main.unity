@@ -348,8 +348,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b0f3dfbaa078704aa28cd4fae05ffcc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bullet: {fileID: 6758629138613977725, guid: 0ca363660e122ca4d8a691c947b8df5e, type: 3}
   MaxBullets: 50
+  bulletFactory: {fileID: 487696225}
 --- !u!4 &487696224
 Transform:
   m_ObjectHideFlags: 0

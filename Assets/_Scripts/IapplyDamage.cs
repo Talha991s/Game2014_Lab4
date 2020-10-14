@@ -2,11 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public enum BulletTypes
+public interface IapplyDamage
 {
-    REGULAR,
-    FAT,
-    PULSING,
-    RANDOM
+    int ApplyDamage();
 
 }
